@@ -1,0 +1,38 @@
+{
+  "name": "fis3-postpackager-loader-fork",
+  "version": "2.1.12",
+  "description": "fis asyncs resouce loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senro/fis3-postpackager-loader-fork.git"
+  },
+  "keywords": [
+    "fis3",
+    "asyncs",
+    "loader"
+  ],
+  "author": "fis",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/senro/fis3-postpackager-loader-fork/issues"
+  },
+  "homepage": "https://github.com/senro/fis3-postpackager-loader-fork",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "fis3": "^3.0.17",
+    "fis3-hook-commonjs": "^0.1.27",
+    "fis3-hook-node_modules": "^2.3.1",
+    "fis3-hook-relative-fork": "0.0.2",
+    "fis3-preprocessor-js-require-css": "^0.1.3",
+    "fis3-preprocessor-js-require-file-fork": "^1.0.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "source-map": "^0.5.6",
+    "sugar": "^2.0.4"
+  }
+}
